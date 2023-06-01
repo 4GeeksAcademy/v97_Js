@@ -8,9 +8,9 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
 
-  let randomNumber = Math.random() * 10;
+//  let randomNumber = Math.random() * 10;
   document.querySelector("#excuse").innerHTML = generateExcuse();
-  console.log("Generator" + randomNumber);
+//  console.log("Generator" + randomNumber);
 };
 
 let generateExcuse = () => {
